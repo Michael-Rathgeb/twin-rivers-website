@@ -1,0 +1,10 @@
+# Robots.txt for Twin Rivers Contracting LLC
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.twinriverscontracting.com/sitemap.xml
+
+# Disallow admin or private areas (add paths as needed)
+# Disallow: /admin/
+# Disallow: /private/

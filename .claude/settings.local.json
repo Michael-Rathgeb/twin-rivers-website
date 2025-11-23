@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server:*)",
+      "Bash(git init:*)",
+      "Bash(copy \"index-twin-rivers.html\" \"index.html\")",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
