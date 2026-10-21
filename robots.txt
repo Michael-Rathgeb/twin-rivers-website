@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.twinriverscontracting.com/sitemap.xml
+Sitemap: https://twinriverscontractingllc.com/sitemap.xml
 
 # Disallow admin or private areas (add paths as needed)
 # Disallow: /admin/

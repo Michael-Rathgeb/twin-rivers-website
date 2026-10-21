@@ -10,32 +10,69 @@
   <meta name="author" content="Twin Rivers Contracting LLC" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="canonical" href="https://www.twinriverscontracting.com/areas/st-louis-county.html" />
+  <link rel="canonical" href="https://twinriverscontractingllc.com/areas/st-louis-county.html" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.twinriverscontracting.com/areas/st-louis-county.html" />
+  <meta property="og:url" content="https://twinriverscontractingllc.com/areas/st-louis-county.html" />
   <meta property="og:title" content="Roofing Contractor in St. Louis County, MO | Twin Rivers Contracting" />
   <meta property="og:description" content="Expert roofing and exterior services throughout St. Louis County, MO. Licensed, insured, and locally owned." />
 
   <meta name="theme-color" content="#1f4b8f" />
-  <link rel="icon" type="image/png" href="../favicon.png" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="stylesheet" href="../styles.css" />
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "RoofingContractor",
-    "name": "Twin Rivers Contracting LLC - St. Louis County",
-    "description": "Professional roofing and exterior services throughout St. Louis County, MO.",
-    "url": "https://www.twinriverscontracting.com/areas/st-louis-county.html",
-    "telephone": "+1-636-541-2687",
-    "priceRange": "$$",
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "St. Louis County",
-      "containedInPlace": { "@type": "State", "name": "Missouri" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://twinriverscontractingllc.com/areas/st-louis-county.html#service",
+      "name": "Roofing & Exterior Services in St. Louis County, MO",
+      "serviceType": "Roofing contractor",
+      "url": "https://twinriverscontractingllc.com/areas/st-louis-county.html",
+      "description": "Twin Rivers Contracting LLC provides expert roofing, storm damage repair, gutters, windows, doors, and siding services throughout St. Louis County, MO. Licensed, insured local contractor. Free inspections!",
+      "provider": {
+        "@type": "RoofingContractor",
+        "@id": "https://twinriverscontractingllc.com/#business",
+        "name": "Twin Rivers Contracting LLC",
+        "telephone": "+1-636-541-2687",
+        "url": "https://twinriverscontractingllc.com/"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "St. Louis County",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Missouri"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://twinriverscontractingllc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://twinriverscontractingllc.com/#service-areas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "St. Louis County, MO",
+          "item": "https://twinriverscontractingllc.com/areas/st-louis-county.html"
+        }
+      ]
     }
-  }
+  ]
+}
   </script>
 
   <style>
@@ -53,6 +90,7 @@
     .area-services h2 { text-align: center; color: var(--primary); margin-bottom: 2rem; }
     .area-services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
     .area-service-item { background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .area-service-item h3 a { color: inherit; }
     .area-service-item h3 { color: var(--secondary); margin-bottom: 0.5rem; font-size: 1.1rem; }
     .area-service-item p { color: #555; font-size: 0.95rem; line-height: 1.6; }
     .area-cta { background: var(--primary); color: #fff; padding: 3rem 1.25rem; text-align: center; }
@@ -70,14 +108,14 @@
 
 <header>
   <div class="nav">
-    <a href="../index-twin-rivers.html" class="logo">
+    <a href="/" class="logo">
       <img src="../twin-rivers-logo-white.png" alt="Twin Rivers Contracting LLC logo" width="56" height="56" />
       <span>Twin Rivers Contracting LLC</span>
     </a>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="../index-twin-rivers.html#services">Services</a>
-      <a href="../index-twin-rivers.html#why-us">Why Us</a>
-      <a href="../index-twin-rivers.html#testimonials">Reviews</a>
+      <a href="/#services">Services</a>
+      <a href="/#why-us">Why Us</a>
+      <a href="/#testimonials">Reviews</a>
     </nav>
     <a href="tel:+16365412687" class="nav-phone" aria-label="Call us at 636-541-2687">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -88,12 +126,12 @@
     <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
       <span></span><span></span><span></span>
     </button>
-    <button class="nav-cta-btn" onclick="window.location.href='../index-twin-rivers.html'">Get Free Quote</button>
+    <button class="nav-cta-btn" onclick="window.location.href='/'">Get Free Quote</button>
   </div>
   <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
-    <a href="../index-twin-rivers.html#services">Services</a>
-    <a href="../index-twin-rivers.html#why-us">Why Us</a>
-    <a href="../index-twin-rivers.html#testimonials">Reviews</a>
+    <a href="/#services">Services</a>
+    <a href="/#why-us">Why Us</a>
+    <a href="/#testimonials">Reviews</a>
   </nav>
 </header>
 
@@ -117,27 +155,27 @@
       <h2>Our Services in St. Louis County</h2>
       <div class="area-services-grid">
         <div class="area-service-item">
-          <h3>Roof Inspections</h3>
+          <h3><a href="../services/roof-inspections.html">Roof Inspections</a></h3>
           <p>Detailed inspections for St. Louis County properties with comprehensive documentation.</p>
         </div>
         <div class="area-service-item">
-          <h3>Roof Repairs</h3>
+          <h3><a href="../services/roof-repairs.html">Roof Repairs</a></h3>
           <p>Expert repairs for all roof types throughout St. Louis County communities.</p>
         </div>
         <div class="area-service-item">
-          <h3>Full Roof Replacements</h3>
+          <h3><a href="../services/full-replacements.html">Full Roof Replacements</a></h3>
           <p>Quality installations using premium materials for St. Louis County homes.</p>
         </div>
         <div class="area-service-item">
-          <h3>Storm Damage Repair</h3>
+          <h3><a href="../services/storm-damage.html">Storm Damage Repair</a></h3>
           <p>Rapid response to storm damage with insurance claim support across St. Louis County.</p>
         </div>
         <div class="area-service-item">
-          <h3>Gutters & Drainage</h3>
+          <h3><a href="../services/gutters.html">Gutters & Drainage</a></h3>
           <p>Custom gutter solutions for St. Louis County properties of all sizes.</p>
         </div>
         <div class="area-service-item">
-          <h3>Windows, Doors & Siding</h3>
+          <h3><a href="../services/windows.html">Windows</a>, <a href="../services/doors.html">Doors</a> &amp; <a href="../services/siding.html">Siding</a></h3>
           <p>Complete exterior services for homes throughout St. Louis County.</p>
         </div>
       </div>
