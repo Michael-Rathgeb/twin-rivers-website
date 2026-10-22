@@ -69,6 +69,7 @@ def load_site():
         site = json.load(f)
     with open(os.path.join(SRC, "photos.json"), encoding="utf-8") as f:
         site["photos"] = {k: v for k, v in json.load(f).items() if not k.startswith("_")}
+    WIKIDATA.update(site.get("wikidata", {}))
     return site
 
 
@@ -282,9 +283,17 @@ def tel_schema(site):
     return f"+{d[0]}-{d[1:4]}-{d[4:7]}-{d[7:]}"
 
 
+WIKIDATA = {}  # name -> Q-id, loaded from site.json "wikidata"
+
+
+def wd(name):
+    q = WIKIDATA.get(name)
+    return {"sameAs": f"https://www.wikidata.org/wiki/{q}"} if q else {}
+
+
 def place(a):
-    return {"@type": a["type"], "name": a["name"],
-            "containedInPlace": {"@type": "State", "name": "Missouri"}}
+    return {"@type": a["type"], "name": a["name"], **wd(a["name"]),
+            "containedInPlace": {"@type": "State", "name": "Missouri", **wd("Missouri")}}
 
 
 def provider_ref(site):
@@ -320,6 +329,10 @@ def business(site, pages):
         ent["email"] = site["email"]
     if site.get("same_as"):
         ent["sameAs"] = site["same_as"]
+    if site.get("has_map"):
+        ent["hasMap"] = site["has_map"]
+    if site.get("knows_about"):
+        ent["knowsAbout"] = [{"@type": "Thing", "name": n, **wd(n)} for n in site["knows_about"]]
     return ent
 
 
@@ -501,7 +514,7 @@ def form_html(site, page):
           <label for="q-company">Company website</label>
           <input type="text" id="q-company" name="company_website" tabindex="-1" autocomplete="off" />
         </div>
-        <button type="submit" class="btn-primary btn-block">Get my free inspection</button>
+        <button type="submit" class="btn-primary btn-block">{esc(page.get("form_button", "Get my free inspection"))}</button>
         <p class="form-status" role="status" aria-live="polite"></p>
         <p class="form-legal">By submitting, you agree to our <a href="/privacy-policy.html">Privacy Policy</a> and <a href="/terms-of-service.html">Terms of Service</a>.</p>
         <p class="quote-call">Prefer to talk? Call <a href="tel:{site['phone_e164']}">{site['phone']}</a></p>
@@ -521,12 +534,12 @@ def footer_html(site, pages):
   <div class="footer-inner">
     <div class="footer-col footer-brand">
       <p class="footer-head">{esc(site['name'])}</p>
-      <p><a href="tel:{site['phone_e164']}" class="footer-phone">{site['phone']}</a>{email}</p>
+      <p>Call or text <a href="tel:{site['phone_e164']}" class="footer-phone">{site['phone']}</a>{email}</p>
       <p>{esc(site['hours_short'])}</p>
       <p>Serving {esc(site['service_area_text'])}.</p>
     </div>
     {col("Roofing", groups["Roofing"])}
-    {col("Exteriors", groups["Exteriors"])}
+    {col("Exteriors & More", groups["Exteriors"])}
     {col("Service Areas", groups["Service Areas"])}
     {col("Company", company)}
   </div>

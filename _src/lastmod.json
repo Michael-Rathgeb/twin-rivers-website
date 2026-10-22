@@ -1,94 +1,118 @@
 {
  "about.html": {
-  "date": "2026-10-21",
-  "hash": "5a0628f240713ae7"
+  "date": "2026-10-22",
+  "hash": "cb8dba8051a29197"
  },
  "areas/ballwin.html": {
-  "date": "2026-10-21",
-  "hash": "23ca5ec03c39a191"
+  "date": "2026-10-22",
+  "hash": "9fa188acf6bf6cd4"
  },
  "areas/chesterfield.html": {
-  "date": "2026-10-21",
-  "hash": "36284110a20f850b"
+  "date": "2026-10-22",
+  "hash": "1c7a0c3f7da59942"
  },
  "areas/index.html": {
-  "date": "2026-10-21",
-  "hash": "547e3ceedc36ec80"
+  "date": "2026-10-22",
+  "hash": "75c630552ba20238"
  },
  "areas/jefferson-county.html": {
-  "date": "2026-10-21",
-  "hash": "56e5a57289d8d2a3"
+  "date": "2026-10-22",
+  "hash": "53fde0f43cda880a"
  },
  "areas/kirkwood.html": {
-  "date": "2026-10-21",
-  "hash": "affbce13cfcdc6c8"
+  "date": "2026-10-22",
+  "hash": "ecd0c1844f3ac8cb"
  },
  "areas/ofallon.html": {
-  "date": "2026-10-21",
-  "hash": "8697770dff26faf8"
+  "date": "2026-10-22",
+  "hash": "0bcc02fb7623ee78"
  },
  "areas/st-charles.html": {
-  "date": "2026-10-21",
-  "hash": "6470236499314c22"
+  "date": "2026-10-22",
+  "hash": "35460f827dd387af"
+ },
+ "areas/st-peters.html": {
+  "date": "2026-10-22",
+  "hash": "f11da78e83cb1c2f"
  },
  "areas/wentzville.html": {
-  "date": "2026-10-21",
-  "hash": "9d5da487322cd664"
+  "date": "2026-10-22",
+  "hash": "026c85bcc5f12ef4"
+ },
+ "areas/west-alton.html": {
+  "date": "2026-10-22",
+  "hash": "cf60bd97d9899234"
  },
  "contact.html": {
-  "date": "2026-10-21",
-  "hash": "b49aaa7e1b92d357"
+  "date": "2026-10-22",
+  "hash": "9f173871c213e20a"
  },
  "index.html": {
-  "date": "2026-10-21",
-  "hash": "ac16d9abd61859ba"
+  "date": "2026-10-22",
+  "hash": "5ba386a31f403384"
  },
  "privacy-policy.html": {
-  "date": "2026-10-21",
-  "hash": "047e59dd175468ca"
+  "date": "2026-10-22",
+  "hash": "8e230bfbe3af035b"
  },
  "services/commercial-roofing.html": {
-  "date": "2026-10-21",
-  "hash": "e1af0126fce3bfce"
+  "date": "2026-10-22",
+  "hash": "e654573fdbd4d09c"
  },
  "services/doors.html": {
-  "date": "2026-10-21",
-  "hash": "5d7513c5488319dd"
+  "date": "2026-10-22",
+  "hash": "5e2fff28ecdb9b84"
  },
  "services/emergency-roof-repair.html": {
-  "date": "2026-10-21",
-  "hash": "d299ab1c080cc8ab"
+  "date": "2026-10-22",
+  "hash": "1f6315e2a64fb174"
  },
  "services/full-replacements.html": {
-  "date": "2026-10-21",
-  "hash": "706bb006e72c3c74"
+  "date": "2026-10-22",
+  "hash": "757a1dd220af4603"
+ },
+ "services/gutter-cleaning.html": {
+  "date": "2026-10-22",
+  "hash": "740e23646a2b3128"
  },
  "services/gutters.html": {
-  "date": "2026-10-21",
-  "hash": "49d2682595d0a027"
+  "date": "2026-10-22",
+  "hash": "66ea96f275c77da4"
+ },
+ "services/handyman.html": {
+  "date": "2026-10-22",
+  "hash": "145b1bea807e279e"
+ },
+ "services/holiday-lighting.html": {
+  "date": "2026-10-22",
+  "hash": "1bd905338b042812"
+ },
+ "services/metal-roofing.html": {
+  "date": "2026-10-22",
+  "hash": "614d479edb07cfc8"
  },
  "services/roof-inspections.html": {
-  "date": "2026-10-21",
-  "hash": "1aa9cd5e9b458bcb"
+  "date": "2026-10-22",
+  "hash": "0158baf448b2a091"
  },
  "services/roof-repairs.html": {
-  "date": "2026-10-21",
-  "hash": "09839b8f24e31fbb"
+  "date": "2026-10-22",
+  "hash": "f871d7144977781c"
  },
  "services/siding.html": {
-  "date": "2026-10-21",
-  "hash": "3b771571d1ea8fb5"
+  "date": "2026-10-22",
+  "hash": "76b4837d53a2574f"
  },
  "services/storm-damage.html": {
-  "date": "2026-10-21",
-  "hash": "32e249c8f6fd2225"
+  "date": "2026-10-22",
+  "hash": "451b5d801da754e3"
  },
  "services/windows.html": {
-  "date": "2026-10-21",
-  "hash": "cc113ff60841e322"
+  "date": "2026-10-22",
+  "hash": "04e0d8404bb88a88"
  },
  "terms-of-service.html": {
-  "date": "2026-10-21",
-  "hash": "b966b91428bb90d2"
+  "date": "2026-10-22",
+  "hash": "3c9e0f5c6f00f471"
  }
 }

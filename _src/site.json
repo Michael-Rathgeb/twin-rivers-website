@@ -8,7 +8,7 @@
   "og_image": "/og-image.jpg",
   "theme_color": "#1f4b8f",
 
-  "_phone_note": "UNCONFIRMED (Q1): the site has always shown 541-2687; the Google Business Profile shows (636) 751-4423. One number everywhere once Scott confirms.",
+  "_phone_note": "CONFIRMED 2026-10-21: Scott's Facebook posts and yard sign say \"Call or text Scott: 636-541-2687\". The Google Business Profile still shows (636) 751-4423; fix the GBP to match.",
   "phone": "(636) 541-2687",
   "phone_e164": "+16365412687",
 
@@ -29,12 +29,28 @@
   "ga4_id": null,
   "gsc_verification": null,
 
-  "_same_as_note": "Q16 and Q19: real profile URLs only. The old facebook.com/twinriverscontracting and instagram.com/twinriverscontracting links were dead.",
-  "same_as": [],
+  "_same_as_note": "Real profile URLs only (the old facebook.com/twinriverscontracting and instagram.com/twinriverscontracting links were dead). Added 2026-10-22: Scott's Facebook page plus the Google Business Profile entity (CID map URL, place ID URL, Knowledge Graph MID /g/11n9ctc_d8) so search engines tie the site to the GBP entity. GBP: Place ID ChIJWwKnMQsd5ysR3QEbwuaxGKk, CID 12184684396508021213, Business Profile ID 8322996902741984025.",
+  "same_as": [
+    "https://www.facebook.com/profile.php?id=61594068714709",
+    "https://maps.google.com/?cid=12184684396508021213",
+    "https://www.google.com/maps/place/?q=place_id:ChIJWwKnMQsd5ysR3QEbwuaxGKk",
+    "https://www.google.com/search?kgmid=/g/11n9ctc_d8"
+  ],
+  "has_map": "https://maps.google.com/?cid=12184684396508021213",
+  "_wikidata_note": "Wikidata Q-ids for the places we serve and the trades we do, emitted as sameAs on areaServed and knowsAbout so engines resolve each entity unambiguously (e.g. St. Louis County, MO, not MN). Each id was checked with the wbsearchentities API on 2026-10-22. Twin Rivers itself has no Wikidata item.",
+  "wikidata": {
+    "Missouri": "Q1581", "St. Louis": "Q38022", "St. Louis County": "Q498034", "St. Charles County": "Q489873",
+    "Jefferson County": "Q489993", "St. Charles": "Q773432", "Chesterfield": "Q959443", "O'Fallon": "Q959924",
+    "Ballwin": "Q805392", "Kirkwood": "Q963572", "Webster Groves": "Q943352", "Wentzville": "Q80859",
+    "St. Peters": "Q963597", "West Alton": "Q960205", "Arnold": "Q602688", "Florissant": "Q636684",
+    "Roofing": "Q361132", "Metal roof": "Q10690144", "Rain gutter": "Q152833", "Siding": "Q2037332",
+    "Window": "Q35473", "Christmas lights": "Q1653073", "Handyman": "Q1552579"
+  },
+  "knows_about": ["Roofing", "Metal roof", "Rain gutter", "Siding", "Window", "Christmas lights", "Handyman"],
 
   "facts": {
     "_note": "Owner intake answers (BUILD-PLAN.md section 2). Strings are inserted as written, e.g. \"a 10-year workmanship warranty\".",
-    "owner_name": null,
+    "owner_name": "Scott",
     "years": null,
     "founded": null,
     "license": null,
@@ -52,7 +68,7 @@
     "replacement_timeline": null,
     "repair_duration": null,
     "permit_handling": null,
-    "shingle_lines": null,
+    "shingle_lines": "Owens Corning Duration architectural shingles, including Duration Designer colors and impact-resistant lines",
     "window_brands": null,
     "door_brands": null,
     "gutter_guard_brand": null
@@ -70,6 +86,8 @@
     {"type": "City", "name": "Kirkwood"},
     {"type": "City", "name": "Webster Groves"},
     {"type": "City", "name": "Wentzville"},
+    {"type": "City", "name": "St. Peters"},
+    {"type": "City", "name": "West Alton"},
     {"type": "City", "name": "Arnold"},
     {"type": "City", "name": "Florissant"}
   ],
@@ -90,32 +108,125 @@
   ],
 
   "nav": [
-    {"label": "Roofing", "items": [
-      ["/services/roof-repairs.html", "Roof Repair"],
-      ["/services/emergency-roof-repair.html", "Emergency Roof Repair"],
-      ["/services/full-replacements.html", "Roof Replacement"],
-      ["/services/roof-inspections.html", "Roof Inspection"],
-      ["/services/storm-damage.html", "Storm & Hail Damage"],
-      ["/services/commercial-roofing.html", "Commercial Roofing"]
-    ]},
-    {"label": "Exteriors", "items": [
-      ["/services/gutters.html", "Gutters"],
-      ["/services/siding.html", "Siding"],
-      ["/services/windows.html", "Windows"],
-      ["/services/doors.html", "Doors"]
-    ]},
-    {"label": "Service Areas", "items": [
-      ["/areas/st-charles.html", "St. Charles"],
-      ["/areas/chesterfield.html", "Chesterfield"],
-      ["/areas/ofallon.html", "O'Fallon"],
-      ["/areas/ballwin.html", "Ballwin"],
-      ["/areas/kirkwood.html", "Kirkwood"],
-      ["/areas/wentzville.html", "Wentzville"],
-      ["/areas/jefferson-county.html", "Arnold & Jefferson County"],
-      ["/areas/", "All service areas"]
-    ]},
-    {"label": "About", "href": "/about.html"},
-    {"label": "Contact", "href": "/contact.html"}
+    {
+      "label": "Roofing",
+      "items": [
+        [
+          "/services/roof-repairs.html",
+          "Roof Repair"
+        ],
+        [
+          "/services/emergency-roof-repair.html",
+          "Emergency Roof Repair"
+        ],
+        [
+          "/services/full-replacements.html",
+          "Roof Replacement"
+        ],
+        [
+          "/services/roof-inspections.html",
+          "Roof Inspection"
+        ],
+        [
+          "/services/storm-damage.html",
+          "Storm & Hail Damage"
+        ],
+        [
+          "/services/metal-roofing.html",
+          "Metal Roofing"
+        ],
+        [
+          "/services/commercial-roofing.html",
+          "Commercial Roofing"
+        ]
+      ]
+    },
+    {
+      "label": "Exteriors",
+      "items": [
+        [
+          "/services/gutters.html",
+          "Gutters"
+        ],
+        [
+          "/services/gutter-cleaning.html",
+          "Gutter Cleaning & Guards"
+        ],
+        [
+          "/services/siding.html",
+          "Siding"
+        ],
+        [
+          "/services/windows.html",
+          "Windows"
+        ],
+        [
+          "/services/doors.html",
+          "Doors"
+        ],
+        [
+          "/services/handyman.html",
+          "Handyman Services"
+        ],
+        [
+          "/services/holiday-lighting.html",
+          "Holiday Lighting"
+        ]
+      ]
+    },
+    {
+      "label": "Service Areas",
+      "items": [
+        [
+          "/areas/st-charles.html",
+          "St. Charles"
+        ],
+        [
+          "/areas/chesterfield.html",
+          "Chesterfield"
+        ],
+        [
+          "/areas/ofallon.html",
+          "O'Fallon"
+        ],
+        [
+          "/areas/st-peters.html",
+          "St. Peters"
+        ],
+        [
+          "/areas/west-alton.html",
+          "West Alton"
+        ],
+        [
+          "/areas/ballwin.html",
+          "Ballwin"
+        ],
+        [
+          "/areas/kirkwood.html",
+          "Kirkwood"
+        ],
+        [
+          "/areas/wentzville.html",
+          "Wentzville"
+        ],
+        [
+          "/areas/jefferson-county.html",
+          "Arnold & Jefferson County"
+        ],
+        [
+          "/areas/",
+          "All service areas"
+        ]
+      ]
+    },
+    {
+      "label": "About",
+      "href": "/about.html"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    }
   ],
 
   "_redirects_note": "GitHub Pages can't send 301s. Each retired URL gets a stub with a canonical and a meta refresh (BUILD-PLAN.md section 4.2). Keep the stubs indefinitely.",

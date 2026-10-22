@@ -186,5 +186,125 @@
     ],
     "quality": 82,
     "alt": "Twin Rivers roofing crew on ladders at a two-story home"
+  },
+  "metal-snow-guards": {
+    "source": "fb-post08-2.jpg",
+    "name": "red-ribbed-steel-roof-with-snow-guards",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "Red ribbed steel roof on a garage with rows of snow guards fastened along the eave",
+    "caption": "Snow guards on a ribbed steel roof."
+  },
+  "metal-commercial": {
+    "source": "fb-post08-4.jpg",
+    "name": "red-metal-roof-on-brick-commercial-building",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "Brick commercial building with garage bays and a red metal roof fitted with snow guards",
+    "caption": "Red metal roof on a brick commercial building."
+  },
+  "metal-pole-barn": {
+    "source": "fb-post08-6.jpg",
+    "name": "white-steel-roof-on-pole-barn",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "Pole barn with a white steel roof and matching steel siding",
+    "caption": "White steel roof on a pole barn."
+  },
+  "lighting-two-story": {
+    "source": "fb-post11-3.jpg",
+    "name": "permanent-holiday-lights-two-story-home",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "Two-story brick home at night with permanent multicolor holiday lights along every roofline",
+    "caption": "Permanent lights on a two-story home."
+  },
+  "lighting-ranch": {
+    "source": "fb-post11-4.jpg",
+    "name": "permanent-holiday-lights-ranch-home",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "Ranch home at night with permanent holiday lighting along the roofline and garage",
+    "caption": "Roofline lighting on a ranch home."
+  },
+  "solar-critter-guard": {
+    "source": "fb-post13-5.jpg",
+    "name": "solar-panel-critter-guard-mesh",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "Wire mesh critter guard installed around the edge of rooftop solar panels",
+    "caption": "Critter guard fitted under solar panels."
+  },
+  "garage-door": {
+    "source": "fb-post07-2.jpg",
+    "name": "new-garage-door-installed",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "widths": [
+      590
+    ],
+    "alt": "New raised-panel garage door with window inserts installed on a brick home",
+    "caption": "New garage door installed."
+  },
+  "scott-roof": {
+    "source": "fb-post16-1.jpg",
+    "name": "scott-twin-rivers-owner-on-roof",
+    "crop": [
+      0,
+      0.08,
+      1,
+      0.6428
+    ],
+    "widths": [
+      526
+    ],
+    "alt": "Scott, who runs Twin Rivers Contracting, on a roof during a shingle installation",
+    "caption": "Scott, on the roof."
   }
 }
