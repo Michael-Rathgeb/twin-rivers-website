@@ -1,0 +1,190 @@
+{
+  "_readme": "One home for every site photo: file name, crop, alt text and caption. `python3 _src/photos.py <folder of originals>` writes the WebP files to assets/img/; page sources show photos with <!--photos key key-->. Crop boxes are fractions of the original (left, top, right, bottom). Alt text says what is in the photo; no city names, because the job locations aren't recorded. Originals: Twin Rivers Facebook photos, supplied 2026-10-21.",
+  "hero-roofing": {
+    "source": "788361256_122093901345468957_2316816641500580255_n.jpg",
+    "name": "roofing-crew-on-ladders-two-story-home",
+    "crop": [
+      0.03,
+      0.0,
+      0.86,
+      0.83
+    ],
+    "widths": [
+      640,
+      1280
+    ],
+    "quality": 40,
+    "soften": 1,
+    "alt": "",
+    "blur": [
+      [
+        0.425,
+        0.555,
+        0.47,
+        0.6
+      ]
+    ]
+  },
+  "hero-exteriors": {
+    "source": "787135978_122093904795468957_2722595436067525342_n.jpg",
+    "name": "vinyl-siding-installation-crew",
+    "crop": [
+      0.0,
+      0.26,
+      1.0,
+      0.82
+    ],
+    "widths": [
+      640,
+      1280
+    ],
+    "quality": 40,
+    "soften": 2,
+    "alt": ""
+  },
+  "roof-finished": {
+    "source": "839363261_122121060825468957_5171914732103946056_n.jpg",
+    "name": "completed-architectural-shingle-roof",
+    "crop": [
+      0.0,
+      0.0,
+      0.72,
+      0.72
+    ],
+    "alt": "Completed roof replacement with multicolor architectural shingles and a new ridge cap, seen from the peak",
+    "caption": "Finished: architectural shingles and ridge cap."
+  },
+  "roof-decking": {
+    "source": "838443351_122121060999468957_3812630425734725531_n.jpg",
+    "name": "rotted-roof-decking-boards-replaced-during-tear-off",
+    "crop": [
+      0.0,
+      0.12,
+      1.0,
+      0.6825
+    ],
+    "alt": "Roof torn off down to the original plank decking, with rotted boards cut out and replaced with new lumber",
+    "caption": "Tear-off: rotted deck boards cut out and replaced."
+  },
+  "roof-underlayment": {
+    "source": "787558195_122093898645468957_2674156454030569788_n.jpg",
+    "name": "synthetic-roof-underlayment-and-shingle-bundles",
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "alt": "Synthetic underlayment covering a roof deck, with bundles of architectural shingles staged along the ridge",
+    "caption": "Synthetic underlayment down, shingles staged on the ridge."
+  },
+  "roof-materials": {
+    "source": "790591307_122096104227468957_8266009877022878222_n.jpg",
+    "name": "shingle-bundles-and-underlayment-rolls-on-roof",
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "alt": "Architectural shingle bundles and rolls of underlayment loaded onto a roof before installation",
+    "caption": "Shingles and underlayment loaded on the roof."
+  },
+  "siding-board": {
+    "source": "785837038_122093904819468957_8573775271711553401_n.jpg",
+    "name": "siding-replacement-old-siding-removed-insulation-board",
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "alt": "Two-story home during siding replacement, with the old siding stripped and foam insulation board going on",
+    "caption": "Old siding off, insulation board going on."
+  },
+  "siding-install": {
+    "source": "787556807_122093901243468957_2699736146405752365_n.jpg",
+    "name": "siding-installers-fastening-insulation-board-on-gable",
+    "crop": [
+      0.0,
+      0.3,
+      1.0,
+      0.8625
+    ],
+    "alt": "Two siding installers on ladders fastening foam insulation board to a gable above blue-gray vinyl siding",
+    "caption": "Fastening insulation board on the gable."
+  },
+  "siding-crew": {
+    "source": "787135978_122093904795468957_2722595436067525342_n.jpg",
+    "name": "siding-crew-installing-vinyl-siding",
+    "crop": [
+      0.0,
+      0.28,
+      1.0,
+      0.8425
+    ],
+    "alt": "Siding crew on ladders installing new vinyl siding on a two-story home with a brick chimney and red door",
+    "caption": "Our crew re-siding a two-story home."
+  },
+  "garage-during": {
+    "source": "787506618_122093904777468957_8389054715459420893_n.jpg",
+    "name": "garage-siding-replacement-house-wrap",
+    "crop": [
+      0.0,
+      0.2,
+      1.0,
+      0.7625
+    ],
+    "alt": "Detached garage during siding replacement, with house wrap on the gable and tan vinyl siding going on below",
+    "caption": "During: house wrap on, siding going up."
+  },
+  "garage-after": {
+    "source": "787941998_122093904765468957_2982325489446917897_n.jpg",
+    "name": "garage-new-tan-vinyl-siding-finished",
+    "crop": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "alt": "Detached two-car garage finished in new tan vinyl siding with brown trim",
+    "caption": "After: the garage finished in new vinyl siding."
+  },
+  "siding-finished": {
+    "source": "786587912_122093904807468957_4533521147082307151_n.jpg",
+    "name": "new-vinyl-siding-two-story-home",
+    "crop": [
+      0.0,
+      0.18,
+      1.0,
+      0.7425
+    ],
+    "alt": "Back of a two-story home with new gray-green vinyl siding installed",
+    "caption": "New vinyl siding on a two-story home."
+  },
+  "og-image": {
+    "source": "788361256_122093901345468957_2316816641500580255_n.jpg",
+    "name": "og-image",
+    "out": "og-image.jpg",
+    "size": [
+      1200,
+      630
+    ],
+    "crop": [
+      0.03,
+      0.1,
+      0.86,
+      0.6563
+    ],
+    "blur": [
+      [
+        0.425,
+        0.555,
+        0.47,
+        0.6
+      ]
+    ],
+    "quality": 82,
+    "alt": "Twin Rivers roofing crew on ladders at a two-story home"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "_readme": "Every owner fact lives here. Change a value, run `python3 _src/build.py`, commit the output. A null fact hides every sentence that depends on it (see <!--if facts.x--> blocks in the page sources). Facts marked UNCONFIRMED are the site's existing values; BUILD-PLAN.md section 2 lists the questions that confirm them.",
+
+  "base_url": "https://twinriverscontractingllc.com",
+  "name": "Twin Rivers Contracting LLC",
+  "short_name": "Twin Rivers",
+  "logo": "/twin-rivers-logo-white.png",
+  "og_image": "/og-image.jpg",
+  "theme_color": "#1f4b8f",
+
+  "_phone_note": "UNCONFIRMED (Q1): the site has always shown 541-2687; the Google Business Profile shows (636) 751-4423. One number everywhere once Scott confirms.",
+  "phone": "(636) 541-2687",
+  "phone_e164": "+16365412687",
+
+  "_hours_note": "UNCONFIRMED (Q2): the site's existing hours. The GBP says Mon-Fri 8-5, Sat closed.",
+  "hours": [
+    {"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00"},
+    {"days": ["Saturday"], "opens": "09:00", "closes": "14:00"}
+  ],
+  "hours_text": "Monday–Friday 8 a.m.–6 p.m. and Saturday 9 a.m.–2 p.m.",
+  "hours_short": "Mon–Fri 8–6 · Sat 9–2",
+
+  "_email_note": "Q3: null until a real mailbox exists. The old info@twinriverscontracting.com belongs to an unrelated Virginia company.",
+  "email": null,
+
+  "service_area_text": "St. Louis City, St. Louis County, St. Charles County and Jefferson County",
+
+  "webhook": "https://leadsonpoint.app.n8n.cloud/webhook/fdd4fcc3-d8a5-47cd-9c93-48fcbc6cb850",
+  "ga4_id": null,
+  "gsc_verification": null,
+
+  "_same_as_note": "Q16 and Q19: real profile URLs only. The old facebook.com/twinriverscontracting and instagram.com/twinriverscontracting links were dead.",
+  "same_as": [],
+
+  "facts": {
+    "_note": "Owner intake answers (BUILD-PLAN.md section 2). Strings are inserted as written, e.g. \"a 10-year workmanship warranty\".",
+    "owner_name": null,
+    "years": null,
+    "founded": null,
+    "license": null,
+    "insurance": null,
+    "certifications": null,
+    "warranty": null,
+    "response_time": null,
+    "after_hours": null,
+    "financing_terms": null,
+    "repair_price_range": null,
+    "replacement_price_range": null,
+    "price_per_square": null,
+    "inspection_price": null,
+    "gutter_price_per_foot": null,
+    "replacement_timeline": null,
+    "repair_duration": null,
+    "permit_handling": null,
+    "shingle_lines": null,
+    "window_brands": null,
+    "door_brands": null,
+    "gutter_guard_brand": null
+  },
+
+  "areas_served": [
+    {"type": "City", "name": "St. Louis"},
+    {"type": "AdministrativeArea", "name": "St. Louis County"},
+    {"type": "AdministrativeArea", "name": "St. Charles County"},
+    {"type": "AdministrativeArea", "name": "Jefferson County"},
+    {"type": "City", "name": "St. Charles"},
+    {"type": "City", "name": "Chesterfield"},
+    {"type": "City", "name": "O'Fallon"},
+    {"type": "City", "name": "Ballwin"},
+    {"type": "City", "name": "Kirkwood"},
+    {"type": "City", "name": "Webster Groves"},
+    {"type": "City", "name": "Wentzville"},
+    {"type": "City", "name": "Arnold"},
+    {"type": "City", "name": "Florissant"}
+  ],
+
+  "_form_services_note": "Options in the lead form's 'What do you need?' select. Values match the old form so the n8n flow keeps routing.",
+  "form_services": [
+    ["roof-inspections", "Free roof inspection"],
+    ["roof-repairs", "Roof repair or leak"],
+    ["emergency-roof-repair", "Emergency repair / tarp"],
+    ["full-replacements", "Roof replacement"],
+    ["storm-hail-damage", "Storm or hail damage"],
+    ["gutters-drainage", "Gutters"],
+    ["commercial-roofing", "Commercial roofing"],
+    ["windows", "Windows"],
+    ["doors", "Doors"],
+    ["siding", "Siding"],
+    ["other", "Something else"]
+  ],
+
+  "nav": [
+    {"label": "Roofing", "items": [
+      ["/services/roof-repairs.html", "Roof Repair"],
+      ["/services/emergency-roof-repair.html", "Emergency Roof Repair"],
+      ["/services/full-replacements.html", "Roof Replacement"],
+      ["/services/roof-inspections.html", "Roof Inspection"],
+      ["/services/storm-damage.html", "Storm & Hail Damage"],
+      ["/services/commercial-roofing.html", "Commercial Roofing"]
+    ]},
+    {"label": "Exteriors", "items": [
+      ["/services/gutters.html", "Gutters"],
+      ["/services/siding.html", "Siding"],
+      ["/services/windows.html", "Windows"],
+      ["/services/doors.html", "Doors"]
+    ]},
+    {"label": "Service Areas", "items": [
+      ["/areas/st-charles.html", "St. Charles"],
+      ["/areas/chesterfield.html", "Chesterfield"],
+      ["/areas/ofallon.html", "O'Fallon"],
+      ["/areas/ballwin.html", "Ballwin"],
+      ["/areas/kirkwood.html", "Kirkwood"],
+      ["/areas/wentzville.html", "Wentzville"],
+      ["/areas/jefferson-county.html", "Arnold & Jefferson County"],
+      ["/areas/", "All service areas"]
+    ]},
+    {"label": "About", "href": "/about.html"},
+    {"label": "Contact", "href": "/contact.html"}
+  ],
+
+  "_redirects_note": "GitHub Pages can't send 301s. Each retired URL gets a stub with a canonical and a meta refresh (BUILD-PLAN.md section 4.2). Keep the stubs indefinitely.",
+  "redirects": {
+    "index-twin-rivers.html": "/",
+    "areas/st-louis.html": "/#st-louis-city",
+    "areas/st-louis-county.html": "/#st-louis-county",
+    "areas/florissant.html": "/areas/#florissant"
+  }
+}
